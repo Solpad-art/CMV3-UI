@@ -1,0 +1,179 @@
+.wallet { 
+display: flex;
+margin-top: 20px;  
+margin-right:20px;
+flex-direction: row-reverse;
+}
+
+.center {
+  position: relative;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  min-height: 300px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.container {
+  width: 100%;
+  max-width: 1800px;
+  padding: 0 4rem;
+  margin: 0 auto;
+}
+
+.form > * + * {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.form button {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  color: rgb(var(--on-accent-rgb));
+  background-color: rgb(var(--accent-rgb));
+  border: none;
+  border-radius: var(--border-radius);
+  padding: 1rem;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.form button:hover {
+  cursor: pointer;
+  background-color: rgb(var(--darker-accent-rgb));
+}
+
+.form button span {
+  white-space: nowrap;
+}
+
+.form button svg {
+  width: 1rem;
+  fill: currentColor;
+}
+
+.field {
+  display: block;
+}
+
+.field span {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.field input {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  margin-top: .5rem;
+  border: 1px solid rgb(var(--tertiary-background-rgb));
+  border-radius: var(--border-radius);
+  background: rgb(var(--secondary-background-rgb));
+  color: rgb(var(--hint-rgb));
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.loading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.loading svg {
+  width: 2rem;
+  height: 2rem;
+  color: rgb(var(--accent-rgb));
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+  transform: rotate(360deg);
+  }
+}
+
+.success {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+  background: rgb(var(--secondary-background-rgb));
+  border: 1px solid rgb(var(--tertiary-background-rgb));
+  border-radius: var(--border-radius);
+  padding: 1rem;
+}
+
+.success > div {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.success code {
+  font-family: var(--font-mono);
+  color: rgb(var(--secondary-foreground-rgb));
+}
+
+.success svg {
+  width: 2rem;
+  height: 2rem;
+  color: rgb(var(--accent-rgb));
+}
+
+.success:hover {
+  background-color: rgb(var(--hover-background-rgb));
+}
+
+.success:hover code {
+  color: rgb(var(--accent-rgb));
+}
+
+
+.title {
+  line-height: 2.5;
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: 'Times New Roman', Times, serif;
+}
+.optionSelectBox4 {
+  border-radius: 10px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #000000;
+}
+.nftBoxGrid {
+  width: 1600px;
+  display: flex;
+  align-items: center;
+  gap: 2%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.optionSelectBox5 {
+  border-radius: 10px;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  padding: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #000000;
+}
