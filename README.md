@@ -72,7 +72,7 @@ https://solflare.com/download
 Clone this repo
 
 ```sh
-git clone https://github.com/solpadnft/CMV3-UI.git
+git clone https://github.com/Solpad-art/CMV3-UI.git
 ```
 
 ```sh
