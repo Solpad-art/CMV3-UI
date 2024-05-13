@@ -173,7 +173,9 @@ you can modify `settings.tsx` to change the texts and images.
 
 create a GitHub account if you don't have one, and upload your files.
 
-deploy your website on https://vercel.com, or https://netlify.com/ , or any hosting platform.
+### Deploy your own to Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Solpad-art/CMV3-UI&env=NEXT_PUBLIC_CANDY_MACHINE_ID,NEXT_PUBLIC_MULTIMINT,NEXT_PUBLIC_MAXMINTAMOUNT,NEXT_PUBLIC_LUT,NEXT_PUBLIC_ENVIRONMENT,NEXT_PUBLIC_RPC,NEXT_PUBLIC_MICROLAMPORTS,NEXT_PUBLIC_BUYMARKBEER)
 
 `feel free to create an issue or a pull request`
 
